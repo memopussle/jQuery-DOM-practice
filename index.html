@@ -25,37 +25,60 @@
   </head>
   <body>
     <div class="container">
-        <h1 class="text-center my-4">Stock Portfolio</h1>
-        <div class="row">
-            <div class="col-12">
-                <table class="table table-responsive">
-                    <thead>
-                        <tr>
-                            <th class="col">Name</th>
-                            <th class="col">Shares Owned</th>
-                            <th class="col">Cost per share ($)</th>
-                            <th class="col">Market Price ($)</th>
-                            <th class="col">Market Value ($)</th>
-                            <th class="col">Unrealized Gain/Loss ($)</th>
-                            <th class="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="names">Feetbook</td>
-                            <td class="shares"></td>
-                            <td class="cost"></td>
-                            <td class="marketPrice"></td>
-                            <td class="marketValue"></td>
-                            <td class="profit"></td>
-                            <td><button class="btn btn-light btn-sm remove">remove</button></td>
-                        </tr>
-                        <tr></tr>
-                        <tr></tr>
-                    </tbody>
-                </table>
-            </div>
+      <h1 class="text-center my-4">Stock Portfolio</h1>
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th class="col">Name</th>
+                <th class="col">Shares Owned</th>
+                <th class="col">Cost per share ($)</th>
+                <th class="col">Market Price ($)</th>
+                <th class="col">Market Value ($)</th>
+                <th class="col">Unrealized Gain/Loss ($)</th>
+                <th class="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="names">Feetbook</td>
+                <td class="shares">20</td>
+                <td class="cost">50</td>
+                <td class="marketPrice">130</td>
+                <td class="marketValue"></td>
+                <td class="profit"></td>
+                <td>
+                  <button class="btn btn-dark btn-sm remove">remove</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="names">Yamazon</td>
+                <td class="shares">5</td>
+                <td class="cost">200</td>
+                <td class="marketPrice">500</td>
+                <td class="marketValue"></td>
+                <td class="profit"></td>
+                <td>
+                  <button class="btn btn-dark btn-sm remove">remove</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name">Snoozechat</td>
+                <td class="shares">100</td>
+                <td class="cost">20</td>
+                <td class="marketPrice">3</td>
+                <td class="marketValue"></td>
+                <td class="profit"></td>
+                <td>
+                  <button class="btn btn-dark btn-sm remove">remove</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
