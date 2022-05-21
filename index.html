@@ -43,9 +43,9 @@
             <tbody>
               <tr>
                 <td class="names">Feetbook</td>
-                <td class="shares">20</td>
-                <td class="cost">50</td>
-                <td class="marketPrice">130</td>
+                <td class="shares"><input type="number" value="20" /></td>
+                <td class="cost"><input type="number" value="50" /></td>
+                <td class="marketPrice"><input type="number" value="130" /></td>
                 <td class="marketValue"></td>
                 <td class="profit"></td>
                 <td>
@@ -54,9 +54,9 @@
               </tr>
               <tr>
                 <td class="names">Yamazon</td>
-                <td class="shares">5</td>
-                <td class="cost">200</td>
-                <td class="marketPrice">500</td>
+                <td class="shares"><input type="number" value="5" /></td>
+                <td class="cost"><input type="number" value="200" /></td>
+                <td class="marketPrice"><input type="number" value="500" /></td>
                 <td class="marketValue"></td>
                 <td class="profit"></td>
                 <td>
@@ -66,9 +66,9 @@
 
               <tr>
                 <td class="name">Snoozechat</td>
-                <td class="shares">100</td>
-                <td class="cost">20</td>
-                <td class="marketPrice">3</td>
+                <td class="shares"><input type="number" value="100" /></td>
+                <td class="cost"><input type="number" value="20" /></td>
+                <td class="marketPrice"><input type="number" value="3" /></td>
                 <td class="marketValue"></td>
                 <td class="profit"></td>
                 <td>
@@ -86,6 +86,27 @@
           <h3>Portfolio gain/loss: $ <span id="portfolioProfit"></span></h3>
         </div>
       </div>
+
+      <form class="col-12 mt-2 mb-4" id="addStock">
+        <input
+          class="mx-2"
+          name="name"
+          type="text"
+          placeholder="Name"
+          required
+        />
+
+        <input class="mx-2" name="shares" type="number" placeholder="Shares" />
+        <input class="mx-2" name="cost" type="number" placeholder="Cost" />
+        <input
+          class="mx-2"
+          name="marketPrice"
+          type="number"
+          placeholder="Price"
+        />
+
+        <button class="btn btn-danger btn-sm">add</button>
+      </form>
     </div>
 
     <script src="app.js"></script>
